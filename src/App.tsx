@@ -1,8 +1,10 @@
-
+import Main from "./components/Main";
 function App(): JSX.Element {
-  return (<>
-        
-  </>);
+  return (
+    <>
+      <Main />
+    </>
+  );
 }
 
 export default App;
