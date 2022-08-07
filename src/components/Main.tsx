@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme)=> ({
     
 }))
 
-export default function Main() {
+export default function Main():JSX.Element{
   const classes = useStyles();
 
   return (
